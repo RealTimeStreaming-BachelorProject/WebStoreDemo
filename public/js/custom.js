@@ -1,4 +1,4 @@
-const packageServiceEndpoint = "http://localhost:9999/packages";
+const packageServiceEndpoint = "http://localhost:9001/packages";
 async function onCheckout() {
   const body = {
     receiverAddress: document.getElementById("street_address").value,
